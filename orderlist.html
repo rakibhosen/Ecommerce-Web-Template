@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Ecommerce</title>
+      <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="assets/css/responsive.css">
+      <!-- Fontawesome Icon -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="assets/css/slider/owl.carousel.min.css">
+      <link rel="stylesheet" href="assets/css/slider/owl.theme.default.min.css">
+   </head>
+   <body>
+      <div class="overlay"></div>
+      <div class="utility-nav d-none d-md-block">
+         <div class="container">
+            <div class="row">
+               <div class="col-12 col-md-6">
+                  <p class="small"><i class="bx bx-envelope"></i> logo@example.com | <i class="bx bx-phone"></i> +91-9876543210
+                  </p>
+               </div>
+               <div class="col-12 col-md-6 text-right">
+                  <p class="small">Free shipping on total of $99 of all products</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div data-toggle="sticky-onscroll">
+         <nav class="navbar navbar-expand-md navbar-light bg-light main-menu pd-2" style="box-shadow:none">
+            <div class="container">
+               <button type="button" id="sidebarCollapse" class="btn btn-link d-block d-md-none btn-color">
+               <i class="fa fa-bars"></i>
+               </button>
+               <ul class="mr-auto d-block d-lg-none d-md-none d-xl-none" style="width:85%">
+                  <div class="input-group mt-3">
+                     <input type="text" class="form-control" placeholder="Search">
+                     <div class="input-group-append"> 
+                        <button class="btn btn-danger" type="submit">Go</button>
+                     </div>
+                  </div>
+               </ul>
+               <div class="d-none d-lg-block d-xl-block">
+                  <a class="navbar-brand" href="#"><img src="./assets/img/logo.png" style="height:27px;width:114px;"></a>
+               </div>
+               <div class="collapse navbar-collapse ">
+                  <form class="form-inline my-2 my-lg-0 mx-auto ">
+                     <input  class="form-control rounded-0 top-search-input" type="search" placeholder="Search for products..." aria-label="Search">
+                     <button class="btn btn-default btn-bg top-search-btn  rounded-0 text-white" type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+                  <ul class="navbar-nav">
+                     <!-- <li class="nav-item">
+                        <a class="btn btn-link" href="#"><i class="fa fa-shopping-cart"></i> <span class="badge badge-danger">3</span></a>
+                        </li>
+                        <li class="nav-item ml-md-3">
+                        <a class="btn btn-primary btn-bg" href="#"><i class="fa fa-user mr-1"></i> Log In / Register</a>
+                        </li> -->
+                     <li class="nav-item icon-pad"><i class="fa fa-shopping-cart"></i></li>
+                     <li class="nav-item  icon-pad"><i class="fa fa-bell"></i></li>
+                     <li class="nav-item  icon-pad"><a href="login.html"><i class="fa fa-user"></i></a></li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+         <nav class="navbar navbar-expand-md nav-bg sub-menu pd-0" >
+            <div class="container">
+               <div class="collapse navbar-collapse" id="navbar">
+                  <ul class="navbar-nav mr-auto">
+                     <li class="nav-item dropdown">
+                        <a class="btn-bg nav-link dropdown-toggle text-uppercase pl-5 pr-5" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span style="padding-right: 15px;">
+                        <i style="color:#ffff" class="fa fa-bars"></i>  
+                        </span>
+                        Categories
+                        </a>
+                        <div class="dropdown-menu rounded-0" aria-labelledby="navbarDropdown">
+                           <a class="dropdown-item border-bottom" href="#">Delivery Information</a>
+                           <a class="dropdown-item border-bottom" href="#">Privacy Policy</a>
+                           <a class="dropdown-item border-bottom" href="#">Terms & Conditions</a>
+                           <a class="dropdown-item border-bottom" href="#">Delivery Information</a>
+                           <a class="dropdown-item border-bottom" href="#">Privacy Policy</a>
+                           <a class="dropdown-item border-bottom" href="#">Terms & Conditions</a>
+                           <a class="dropdown-item border-bottom" href="#">Delivery Information</a>
+                           <a class="dropdown-item border-bottom" href="#">Privacy Policy</a>
+                           <a class="dropdown-item border-bottom" href="#">Terms & Conditions</a>
+                        </div>
+                     </li>
+                     <li class="nav-item active">
+                        <a class="nav-link " href="index.html">Home <span class="sr-only">(current)</span></a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="product.html">Products</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#">Campaign</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Support
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <a class="dropdown-item" href="#">Delivery Information</a>
+                           <a class="dropdown-item" href="#">Privacy Policy</a>
+                           <a class="dropdown-item" href="#">Terms & Conditions</a>
+                        </div>
+                     </li>
+                  </ul>
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                     </li>
+                     <li class="nav-item ">
+                        <a class="nav-link pr-0" href="#">Help</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </div>
+      <!-- Sidebar -->
+      <nav id="sidebar">
+         <div class="sidebar-header">
+            <div class="container">
+               <div class="row align-items-center">
+                  <div class="col-10 pl-0">
+                     <a class="btn btn-default btn-bg text-white rounded-0" href="#"><i class="fa fa-user mr-1"></i> Log In</a>
+                  </div>
+                  <div class="col-2 text-left">
+                     <button type="button" id="sidebarCollapseX" class="btn btn-link">
+                     <i class="fa fa-close"></i>
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <ul class="list-unstyled components links">
+            <li class="active rounded-0">
+               <a href="#"><i class="fa fa-home mr-3"></i> Home</a>
+            </li>
+            <li>
+               <a href="#"><i class="fa fa-product-hunt mr-3"></i> Products</a>
+            </li>
+            <li>
+               <a href="#"><i class="fa fa-product-hunt mr-3"></i>About</a>
+            </li>
+            <li>
+               <a href="#"><i class="fa fa-product-hunt mr-3"></i>Contact</a>
+            </li>
+         </ul>
+         <h6 class="text-uppercase mb-1 text-white">Categories</h6>
+         <ul class="list-unstyled components mb-3">
+            <li>
+               <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+               <i class="fa fa-product-hunt mr-3"></i> Support</a>
+               <ul class="collapse list-unstyled" id="pageSubmenu" style="padding-left: 40px;">
+                  <li>
+                     <a href="#">Delivery Information</a>
+                  </li>
+                  <li>
+                     <a href="#">Privacy Policy</a>
+                  </li>
+                  <li>
+                     <a href="#">Terms & Conditions</a>
+                  </li>
+               </ul>
+            </li>
+            <li>
+               <a href="#"><i class="fa fa-product-hunt mr-3"></i>Contact</a>
+            </li>
+            <li>
+               <a href="#"><i class="fa fa-product-hunt mr-3"></i>Contact</a>
+            </li>
+            <li>
+               <a href="#"><i class="fa fa-product-hunt mr-3"></i>Contact</a>
+            </li>
+            <li>
+               <a href="#"><i class="fa fa-product-hunt mr-3"></i>Contact</a>
+            </li>
+         </ul>
+         <ul class="social-icons">
+            <li class="nav-item icon-pad"><i class="fa fa-shopping-cart"></i></li>
+            <li class="nav-item  icon-pad"><i class="fa fa-bell"></i></li>
+            <li class="nav-item  icon-pad"><i class="fa fa-user"></i></li>
+         </ul>
+         <!-- <ul style="list-style: none; float:left;">
+            <li class="nav-item icon-pad"><i class="fa fa-shopping-cart"></i></li>
+            <li class="nav-item  icon-pad"><i class="fa fa-bell"></i></li>
+            <li class="nav-item  icon-pad"><i class="fa fa-user"></i></li>
+            
+            </ul> -->
+      </nav>
+      <!--Login form-->
+      <section class="login-form mt-5">
+         <div class="container">
+            <div class="card">
+               <div class="card-body p-0 table-responsive">
+                  <h4 class="p-3 mb-0">All Orders</h4>
+                  <table class="table mb-0">
+                     <thead>
+                        <tr>
+                           <th scope="col">Order Id</th>
+                           <th scope="col">Total Amount</th>
+                           <th scope="col">Due Amount</th>
+                           <th scope="col">Order Status</th>
+                           <th scope="col">Payment Status</th>
+                           <th>Details</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>#00034454</td>
+                           <td>$10044.00</td>
+                           <td><strong>Paid</strong></td>
+                           <td><span class="badge badge-warning">PENDING</span></td>
+                           <td><span class="badge badge-success">paid</span></td>
+                           <td><a href="" class="btn btn-info">Details</a></td>
+                        </tr>
+                        <tr>
+                           <td>#00034454</td>
+                           <td>$10044.00</td>
+                           <td><strong>Paid</strong></td>
+                           <td><span class="badge badge-warning">PENDING</span></td>
+                           <td><span class="badge badge-success">paid</span></td>
+                           <td><a href="" class="btn btn-info">Details</a></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--Footer-->
+      <section class="footer nav-bg mt-5">
+         <div class="container">
+            <p class="text-white text-center p-2 font">&copy Right all right reserved Rakib Hosen 2021</p>
+         </div>
+      </section>
+      <!-- all js -->
+      <script src="assets/js/bootstrap/jquery.min.js"></script>
+      <!-- jQuery library -->
+      <!-- Popper JS -->
+      <script src="assets/js/bootstrap/propper.min.js"></script>
+      <!-- Latest compiled JavaScript -->
+      <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+      <!-- <script src="jquery.min.js"></script> -->
+      <script src="assets/js/owl.carousel.min.js"></script>
+      <script src="assets/js/index.js"></script>
+      <script>
+         $(document).ready(function(){
+         $(window).scroll(function () {
+         if ($(this).scrollTop() > 50) {
+         $('#back-to-top').fadeIn();
+         } else {
+         $('#back-to-top').fadeOut();
+         }
+         });
+         // scroll body to 0px on click
+         $('#back-to-top').click(function () {
+         $('body,html').animate({
+         scrollTop: 0
+         }, 400);
+         return false;
+         });
+         });
+      </script>
+
+
+   </body>
+</html>
